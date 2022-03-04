@@ -1,0 +1,83 @@
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    color: #4b4b4b;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 120rem;
+}
+
+.view-limit {
+    margin: auto;
+    padding: 0 4rem;
+    max-width: 81rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+.separator {
+    background: #ececec;
+    display: block;
+    margin: auto;
+    max-width: 23.625rem;
+    height: 0.0625rem;
+}
+    .separator.distance-meddium {
+        margin: 6.25rem auto;
+    }
+
+
+.especialist {
+    display: flex;
+    padding-left: 5rem;
+    font-size: 1rem;
+    padding-right: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+} 
+.especialist h1 {
+    font-weight: 700;
+    color: #000000;
+    font-size: 0.9rem;
+}
+.especialist img {
+    height: 3rem;
+    margin: auto;
+}
+
+
+.clientes {
+    display: flex;
+    justify-content: center;
+}
+.clientes img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+}
+
+
+.projects {
+    display: flex;
+}
+.projects h4 {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #000000;
+}
+.projects--images img{
+    width: 20rem;
+    height: 15rem;
+    margin-right: 6rem;
+}
+.projects--images p{
+    font-size: 0.8rem;
+}

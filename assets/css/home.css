@@ -1,0 +1,135 @@
+/*HEADER*/    
+header {
+    padding: 4rem 0 0;
+}
+
+header .view-limit {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .group {
+    display: flex;
+}
+
+header #photo {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    font-weight: 900;
+    color: #777777;
+
+    transition: color 0.3s;
+}
+    header nav a:first-child {
+        margin-right: 3rem;
+    }
+    header nav a.selected,
+    header nav a:hover {
+        color: #2f2f2f;
+    }
+
+
+/*PRESENTATION*/
+#presentation .view-limit {
+    display: flex;
+    justify-content: center;
+}
+
+#presentation .view-limit > div {
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentation .view-limit > div div {
+    width: 100%;
+}
+
+#presentation h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #000000;
+}
+
+#presentation p {
+    margin: 0;
+}
+
+#presentation .view-limit > div > p{
+    max-width: 20.4375rem;
+    text-align: center;
+}
+
+#presentation .button {
+    margin-top: 2rem;
+}
+
+/*especialist*/
+
+#top h1 {
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+#html {
+    margin-right: 2rem;
+}
+#css {
+    margin-right: 2rem;
+}
+#java {
+    margin-right: 2rem;
+}
+#php {
+    margin-left: 2rem;
+}
+    
+
+/*FOOTER*/
+footer {
+    padding: 0 0 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer a{
+    display: flex;
+    justify-content: center;
+}
+.footer h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.icons-images {
+    display: flex;
+    justify-content: center;
+}
+.icons-images img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+
+
+
+
+
